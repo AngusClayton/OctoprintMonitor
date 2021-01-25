@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Syne:wght@500&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f3f3;
+    color: frgb(15, 8, 78);
+    font-size: 150%;
+}
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 250%;
+}
+
+.Highlight {
+    color: #8f1126;
+}
+.Highlight2 {
+    color: #1b8d67;
+}
+.Highlight3 {
+    color: #321fa0;
+}
+</style>
+<script type="text/javascript"src="app.js"> </script>
+<script src="./build/js/app.js"></script>
+
+<h1 id='title'>Octoprint Monitor</h1>
+<p id='warningBox'></p>
+
+State: <span id='status' class="Highlight2"> Error</span><span class="Highlight3" id='fileName'></span>
+<br>
+<br> <span  class="Highlight2"> <span id='timeRemaining'>Error</span> min</span> Remaining 
+| 
+<span  class="Highlight"><span id='totalTime'>Error</span> min</span> Completed 
+| 
+<span  class="Highlight3" > <span id='completion'> Error</span>%</span> Complete
+
+<br>
+<br>
+
+Hotend: <span class="Highlight"><span id='hotend' > ERROR</span>°C</span>
+<br>
+Bed: <span class="Highlight" ><span id ='bed'> ERROR</span>°C</span>
+
