@@ -1,5 +1,8 @@
 # OctoprintMonitor
-A minimal electron js app for monitoring (not controlling) key aspects of octoprint. Will notify the user when a print is about to complete.
+A minimal electron js app for monitoring (not controlling) key aspects of octoprint. Will push notify the user when a print is about to complete.
+
+config file located `%appdata%/octoprintMonitor`
+
 
 did not include the node modules folder.
 
